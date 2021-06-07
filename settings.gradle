@@ -1,0 +1,3 @@
+include ':PreferenceHelper'
+include ':app'
+rootProject.name = "SharedPreferenceHelper"
