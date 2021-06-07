@@ -5,8 +5,6 @@ import android.content.SharedPreferences
 import com.aanealoneal.preferencehelper.preference.PreferenceName.preferenceName
 import org.koin.dsl.module.module
 
-
-
 val injectionModule = module {
     single { provideSharePreference(get(), preferenceName) }
 }
